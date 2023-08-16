@@ -1,0 +1,54 @@
+bind "MWHEELDOWN" "+jump"         滚轮跳
+bind shift "+speed;r_cleardecals"        按shift清血迹
+bind mouse4 "toggle cl_righthand 1 0"   左右手
+mat_monitorgamma 2.0        亮度
+bot_kick                                踢掉所有电脑
+cl_showpos 1                        显示速度
+net_graph 0                              FPS显示
+net_graphpos 0                        FPS位置
+net_graphproportionalfont 1    FPS字体
+
+logaddress_add 1             完美突然锁帧
+
+-perfectworld
+-worldwide
+
+-allow_third_party_software
+
+启动项
+-tickrate 128 -novid -nojoy -worldwide -console -freq 280 -language bananagaming +rate 786432 +cl_interp_ratio 1
+
+-tickrate 128 -novid -console -worldwide  -language bananagaming
+
+-worldwide -freq 240 -tickrate 128 +cl_interp ratio 1
+
+                                               ipconfig/all           dns
+WIN+R，输入cmd，确定；输入ipconfig/flushdns，回车
+
+
+CSGO-f79H9-2RL8e-7mKQr-9ouPC-SnrqK
+
+准星
+cl_crosshair_drawoutline "0.000000"
+cl_crosshair_dynamic_maxdist_splitratio "0.000000"
+cl_crosshair_dynamic_splitalpha_innermod "1"
+cl_crosshair_dynamic_splitalpha_outermod "1.000000"
+cl_crosshair_dynamic_splitdist "4"
+cl_crosshair_friendly_warning "1"
+cl_crosshair_outlinethickness "1.000000"
+cl_crosshair_sniper_show_normal_inaccuracy "0"
+cl_crosshair_sniper_width "1"
+cl_crosshair_t "0.000000"
+cl_crosshairalpha "255.000000"
+cl_crosshaircolor "5"
+cl_crosshaircolor_b "255"
+cl_crosshaircolor_g "255.000000"
+cl_crosshaircolor_r "0.000000"
+cl_crosshairdot "0"
+cl_crosshairgap "-8.500000"
+cl_crosshairgap_useweaponvalue "0"
+cl_crosshairsize "2.500000"
+cl_crosshairstyle "2"
+cl_crosshairthickness "0.100000"
+cl_crosshairusealpha "0"
+cl_fixedcrosshairgap "-7.500000"
